@@ -1,0 +1,30 @@
+
+**这个项目用到了那些东西**
+
+######1 lombok
+
+######2  日志
+
+######3  事务
+
+######4  druid 连接池
+
+
+#参考资料
+###1
+SpringBoot配置devtools实现热部署<br>
+ https://www.cnblogs.com/lspz/p/6832358.html
+###2
+ Lombok介绍及使用方法<br>
+ https://www.cnblogs.com/holten/p/5729226.html
+ 
+ lombok的官方网站
+https://projectlombok.org/
+ 
+ ###3
+ 学习java的网站 
+ https://howtodoinjava.com/
+ 
+ ###4
+ 
+ 

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!-- 引入外部资源文件 -->
+    <!--没有外部资源 不需要 先注释掉-->
+    <!--<properties resource="jdbc.properties"></properties>-->
+    <!-- 设置驼峰匹配 -->
+    <settings>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+    <!-- 设置包扫描(别名) 是包 不是具体到一个类的。 -->
+    <typeAliases>
+        <package name="com.hx.zibiao.pojo"></package>
+    </typeAliases>
+
+
+</configuration>
