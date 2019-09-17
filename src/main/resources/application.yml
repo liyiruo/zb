@@ -46,15 +46,6 @@ spring:
   connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
 
 
-#Description:
- #
- #The bean 'druidConfig', defined in class path resource [com/hx/zibiao/config/DruidConfig.class], could not be registered. A bean with that name has already been defined in file [D:\zb\target\classes\com\hx\zibiao\config\DruidConfig.class] and overriding is disabled.
- #
- #Action:
- #
- #Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
-
-# 解决上面报的错 (没有能解决的了上面的报错，因为上面的错 是由于bean 的名称使用了druidConfig 而这个名字已经被用了)
  main:
   allow-bean-definition-overriding: true
 #配置mybatis配置文件

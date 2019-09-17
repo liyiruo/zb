@@ -59,9 +59,10 @@ public class ZibiaoApplicationTests {
     JdbcTemplate template;
     @Test
     public void test2() {
-        List<Map<String, Object>> maps = template.queryForList("select sysdate from dual ");
-        List<Map<String, Object>> maps2 = template.queryForList("select * from myuser ");
-        log.info("==========>{}",maps.get(0));
-        log.info("==========>{}",maps2.get(0));
+//        连接mysql时，不能有dual这种虚拟表
+//        List<Map<String, Object>> maps = template.queryForList("select sysdate from dual ");
+          List<Map<String, Object>> maps2 = template.queryForList("select * from myuser ");
+//        log.info("==========>{}",maps.get(0));
+          log.info("==========>{}",maps2.get(0));
     }
 }
